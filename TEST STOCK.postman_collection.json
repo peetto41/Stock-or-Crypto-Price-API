@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "f0cec3c5-75f7-4ae8-b557-8d25b25e4a4f",
+		"name": "TEST STOCK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8423484"
+	},
+	"item": [
+		{
+			"name": "get stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/stocks/GOOGL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"stocks",
+						"GOOGL"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
